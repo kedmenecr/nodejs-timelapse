@@ -1,0 +1,29 @@
+{
+  "name": "nodelapse",
+  "version": "1.0.0",
+  "description": "Nodelapse is a tool for making timelapses with ffmpeg",
+  "main": "index.js",
+  "bin": {
+    "nodelapse": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kedmenecr/nodejs-timelapse.git"
+  },
+  "keywords": [
+    "ffmpeg",
+    "nodejs",
+    "shellscript",
+    ".sh"
+  ],
+  "author": "Roberto Kedmenec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kedmenecr/nodejs-timelapse/issues"
+  },
+  "homepage": "https://github.com/kedmenecr/nodejs-timelapse#readme"
+}
