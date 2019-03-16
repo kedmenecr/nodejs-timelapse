@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { exec } = require("child_process");
 
 // base
@@ -15,8 +16,9 @@ if (process.argv[3]) {
 }
 
 exec(
-  `cat *.jpg || ffmpeg -framerate ${frameRate} -f image2pipe -i - ./${outputName}.ov`,
-  err => {
+  `cat *.jpg | ffmpeg -framerate ${frameRate} -f image2pipe -i - ./${outputName}.mov`,
+  (err, stdout) => {
+    console.log(stdout);
     if (err) {
       console.log("Couldn't execute the operation, sry");
     }

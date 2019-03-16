@@ -1,6 +1,6 @@
 {
   "name": "nodelapse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nodelapse is a tool for making timelapses with ffmpeg",
   "main": "index.js",
   "bin": {
